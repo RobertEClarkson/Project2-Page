@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 25px;
+    background-image: url("/Project2/comp484-project2-main/images/Jungle.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 850px;
+  }
+  
+  main {
+    display:block;
+    height:200px;
+    background-color: rgba(139, 139, 139, 0.7);
+  }
+  
+  header {
+    background-color: rgba(0, 84, 11, 0.8);
+    border-bottom: 1px solid black;
+  }
+  
+  h1 {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  p {
+    max-width: 600px;
+  }
+  
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    padding-top: 25px;
+    border-top: 1px solid black;
+  }
+  
+  footer a {
+    float:left;
+    margin:5px;
+  }
+
+  .pet {
+    position: absolute;
+    top: 400px;
+  }
+
+  .pet-image {
+    height: 180px;
+    width: 180px;
+  }
+  
+  .dashboard div {
+    display:block;
+  }
+  
+  .pet-image-container {
+    float:left;
+    padding:10px;
+  }
+  
+  .dashboard {
+    float:left;
+    margin-top: 10px;
+    padding:20px;
+    background-color: rgba(255,255,255,1);
+  }
+  
+  .pet-thoughts {
+    position: absolute;
+    top: 50%;
+    right: 400px;
+    width: 110px;
+    height: 120px;
+    background-size: cover;
+    background-image: url("/Project2/comp484-project2-main/images/thoughts.png"); 
+  }
+
+  .comment {
+    position: relative;
+    top: 35px;
+    margin-left: 25px;
+    font-size: large;
+  }
+
+  .button-container {
+    margin-top:20px;
+  }
+  
+  .button-container button {
+    width: 100px;
+      margin-right: 10px;
+      text-align: center;
+      display: inline-block;
+      float: left;
+    font-size:15px;
+    background-color: #1e2835;
+    border-color: #404853;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(30,40,53,0)66%);
+    color: #fafafa;
+  }
