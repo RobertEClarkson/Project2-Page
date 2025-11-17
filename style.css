@@ -8,7 +8,7 @@
     margin: 25px;
     background-image: url("images/Jungle.jpg");
     background-repeat: no-repeat;
-    background-size: 1550px 850px;
+    background-size: cover;
   }
   
   main {
