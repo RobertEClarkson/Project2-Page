@@ -95,15 +95,15 @@ $(function() { // Makes sure that your function is called once all the DOM eleme
       //happiness checks
       if(pet_info.happiness > 10 && pet_info.happiness <= 100){
         pet_info.status = "Doing good!";
-        changePetStatusImage("/Project2/comp484-project2-main/images/happy.jpg");
+        changePetStatusImage("images/happy.jpg");
       }
       else if(pet_info.happiness > 100){
         pet_info.status = "Monkeying Around!";
-        changePetStatusImage("/Project2/comp484-project2-main/images/monkeying_around.jpg");
+        changePetStatusImage("images/monkeying_around.jpg");
       }
       else {
         pet_info.status = "Sad";
-        changePetStatusImage("/Project2/comp484-project2-main/images/sad.jpg");
+        changePetStatusImage("images/sad.jpg");
       }
 
       /*weight checks (removed cause I didn't find pictures I liked)
